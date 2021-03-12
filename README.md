@@ -1,3 +1,4 @@
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Usage
 
 Creates an WAF Web ACL for use with CloudFront.  Since this is a global resource, you can use any provider region.
@@ -36,14 +37,26 @@ This project constitutes a work of the United States Government and is not subje
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.12 |
-| aws | >= 2.55.0 |
+| terraform | >= 0.13 |
+| aws | ~> 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | >= 2.55.0 |
+| aws | ~> 3.0 |
+
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [aws_waf_byte_match_set](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/waf_byte_match_set) |
+| [aws_waf_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/waf_rule) |
+| [aws_waf_web_acl](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/waf_web_acl) |
 
 ## Inputs
 
@@ -62,4 +75,4 @@ This project constitutes a work of the United States Government and is not subje
 | Name | Description |
 |------|-------------|
 | web\_acl\_id | The ID of the WAF WebACL. |
-
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
